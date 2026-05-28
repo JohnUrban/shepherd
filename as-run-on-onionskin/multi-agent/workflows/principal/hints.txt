@@ -1,0 +1,4 @@
+HINT1: After R1, ask Orchestrator something like:
+'''
+R1 is done. Please read the audit log and other files of interest, and give me a succinct report on what I need to know. I know there will be questions for the Principal and Orchestrator to hammer out. Raise them to me one at a time. I may ask clarifying questions. When we settle one question we can move on to the next.
+'''

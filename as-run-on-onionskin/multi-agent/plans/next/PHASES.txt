@@ -1,0 +1,4 @@
+- HMM completeness and enrichment
+- continue posterior cluster improvement, flat sample test pre-group, etc
+- cross-pipeline summit updates -- all brainstorm, all compatible, all tests, best one, make sure posterior is better
+- CLI cleanup: all pipeline-specific params should have their prefix (hmm, growth, rms); better organize (seqlen/bin num to top, etc)

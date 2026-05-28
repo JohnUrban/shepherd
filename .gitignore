@@ -1,0 +1,94 @@
+############################
+# Python
+############################
+pycache/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+############################
+# Virtual environments
+############################
+.venv/
+venv/
+env/
+
+############################
+# Jupyter / notebooks
+############################
+.ipynb_checkpoints/
+
+############################
+# OS / editor junk
+############################
+.DS_Store
+Thumbs.db
+
+############################
+# Logs
+############################
+*.log
+
+############################
+# Build / packaging
+############################
+dist/
+build/
+.egg-info/
+
+############################
+# Coverage / pytest artifacts
+############################
+.coverage
+htmlcov/
+.pytest_cache/
+
+############################
+# Runtime outputs (core)
+############################
+onionskin_results/
+toy_out/
+
+############################
+# Dev / sandbox runs
+############################
+dev/
+tmp/
+tmp_/
+runs/
+test_runs/
+scratch/
+
+############################
+# Large / local data (keep test data tracked)
+############################
+data/
+datasets/
+
+# IGNORE accidental large files but KEEP curated test data
+*.bw
+*.bam
+*.fastq
+*.fq
+
+############################
+# Archives (only ignore temp ones)
+############################
+*.tar.gz
+
+############################
+# Handoff temp (keep curated docs)
+############################
+handoffs/tmp/
+
+
+### EXTRA
+concat-tmp
+PuffStep/
+.vscode
+.tmp_score_calls
+changelog-entry-*.txt
+del
+.claude
+geckocorrection
