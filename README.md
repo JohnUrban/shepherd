@@ -139,3 +139,5 @@ as-run-on-onionskin/       ← Shepherd exactly as it ran on the onionskin proje
 
 Built by John M. Urban shepherding agents while developing `onionskin`. The methodology was built the same way onionskin was: I defined the structure, the file roles, and the rules, and the agents refined and enforced them, often reflecting a rule I'd just written straight back at me. A field report on the lessons learned — *"Good news: humans are still needed in science"* — is on the Biofinysics blog: https://biofinysics.blogspot.com/2026/05/good-news-humans-are-still-needed-in.html
 
+
+![vscode-screenshot](assets/logo/vscode-screenshot.png)
