@@ -1,0 +1,12 @@
+# GitHub Linguist language-bar fix.
+#
+# Linguist excludes "prose" languages (Markdown, plain text) from the
+# repository language statistics by default. Since this repo is almost
+# entirely Markdown documentation, that left the language bar showing
+# "Makefile 100%" — the lone Makefile being the only file Linguist
+# counts as a programming language.
+#
+# Forcing Markdown to be detectable makes the language bar reflect what
+# the repository actually is: overwhelmingly Markdown, with a small
+# Makefile slice.
+*.md linguist-detectable=true
